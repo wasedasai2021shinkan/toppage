@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP</title>
+      <link rel="stylesheet" href="toppage.css">
+      <style>
+        footer {
+      background-color: #78c1cd;
+      text-align: center;
+      padding: 26px 0;
+      text-decoration: none;
+  }
+  
+  footer p {
+      color: #ffffff;
+      font-size: 20px;
+      font-family: serif;
+  }
+  .wrapper2 {
+      background-color: #78c1cd;
+  }
+  
+  
+  .innerbox {
+      margin-top: 5px;
+      background-color: #78c1cd;
+      text-align: center;
+      width: 450px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+  }
+  
+  .footerlogo{
+      margin-top: 5px;
+  }
+    
+      </style>
+  </head>
+  <body>
+    
+
+    <header>
+      <!--▽▽ヘッダーロゴ▽▽-->
+            <div class="logo1">
+                <a href="#" id="headerlogo"><img src="headericon.png" class="hedlogo">
+                </a>
+            </div>
+      <!--△△ヘッダーロゴ△△-->
+      
+      
+      <!--▽▽ハンバーガーメニュー▽▽-->
+            <div id="hamburger">
+                <div class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+      <!--△△ハンバーガーメニュー△△-->
+      
+       
+      <!--▽▽ハンバーガーメニューのリスト▽▽-->
+            <nav class="sm navi">
+              <ul class="lists">
+                <li class="lili"><a  class="listwords" href="#">代表挨拶</a></li>
+                <li class="lili"><a  class="listwords" href="#">早稲田祭について</a></li>
+                <li class="lili"><a  class="listwords" href="#">新歓イベント</a></li>
+                <li class="lili"><a  class="listwords" href="#">活動について</a></li>
+                <li class="lili"><a  class="listwords" href="#">連載記事</a></li>
+                <li class="lili"><a  class="listwords" href="#">年間スケジュール</a></li>
+                <li class="lili"><a  class="listwords" href="#">フォトギャラリー</a></li>
+                <li class="lili"><a  class="listwords" href="#">入会方法</a></li>
+                <li class="lili"><a  class="listwords" href="#">お問い合わせ</a></li>
+             </ul>
+           </nav>
+      <!--△△ハンバーガーメニューのリスト△△-->
+      
+  
+      <!--▽▽ヘッダーリスト▽▽-->
+            <nav class="pc navi">  <!--pcクラスを追記-->
+              <ul class="lists">
+                <li class="lili"><a  class="listwords" href="#">代表挨拶</a></li>
+                <li class="lili"><a  class="listwords" href="#">新歓イベント</a></li>
+                <li class="lili"><a  class="listwords" href="#">連載記事</a></li>
+                <li class="lili"><a  class="listwords" href="#">入会方法</a></li>
+                <li class="lili"><a  class="listwords" href="#">お問い合わせ</a></li>
+              </ul>
+            </nav>
+      <!--△△ヘッダーリスト△△-->
+      
+          </header>
+      
+      
+      <!--▽▽jQuery▽▽-->
+          <script src="jquery-3.6.0.min.js"></script>
+            <script>
+              $('#hamburger').on('click', function(){
+              $('.icon').toggleClass('close');
+              $('.sm').slideToggle();
+              });
+        
+            </script>
+      <!--△△jQuery△△-->
+
+
+<!--トップロゴ-->
+
+<div class="toppagelogo"><img class="toppagelogo" src="toppagelogo.jpg"></div>
+<!--トップロゴ終わり-->
+
+<!--ボタン-->
+<div class="wrapper">
+  <div class="outer-box">
+<h1 class="topmenu">MENU</h1>
+<div class="items">
+  <div class="btn-box">
+<ul class="topbotan">
+  <div class="inner-btn-box">
+  <div class="item"><li class="libotan"><button class="botan">代表挨拶</button></li></div>
+  <div class="item"><li class="libotan"><button class="botan">早稲田祭について</button></li></div>
+  <div class="item"><li class="libotan"><button class="botan">年間スケジュール</button></li></div></div>
+  <div class="inner-btn-box">
+  <div class="item"><li class="libotan"><button class="botan">活動について</button></li></div>
+  <div class="item"><li class="libotan"><button class="botan">連載記事</button></li></div>
+  <div class="item"><li class="libotan"><button class="botan">フォトギャラリー</button></li></div></div>
+  <div class="inner-btn-box">
+  <div class="item"><li class="libotan"><button class="botan">新歓イベント</button></li></div>
+  <div class="item"><li class="libotan"><button class="botan">入会方法</button></li></div>
+  <div class="item"><li class="libotan"><button class="botan">お問い合わせ</button></li></div></div></div>
+</ul>
+</div>
+</div>
+<!--ボタン終わり-->
+
+
+<!--更新情報-->
+
+<section class="news">
+  <h1 class="index topnews">NEWS</h1>
+  <div class="news-list">
+    <ul>
+      <li><span style="color: #6748f0; font-weight: 150;">2021/3/20</span>&emsp;早稲田祭2021 新歓サイト開設！</li>
+
+    </ul>
+  </div>
+</section>
+<!--更新情報終わり-->
+
+<!--footer-->
+
+  <div class="wrapper2">
+      <p class="title">WASEDASAI OPERATION STAFF</br>SHINKAN 2021</p>
+      <div class="innerbox">
+            
+          <a href="https://twitter.com/wasedasai_new?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" > 
+              <img src="twitter.png" alt="twitter" width="80" height="80"　border="0"> 
+          </a>
+
+          <a href="https://www.instagram.com/wasedasai_new/" target="_blank" > 
+              <img src="instagram.png" alt="instagram" width="80" height="80"　border="0"> 
+          </a>
+
+          <a href="https://qr-official.line.me/sid/M/011uqnra.png" target="_blank" > 
+              <img src="line.png" alt="line" width="80" height="80"　border="0"> 
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCFh9blapIkxPf4Al3L87QHQ" target="_blank" > 
+              <img src="youtube.png" alt="youtube" width="80" height="80"　border="0"> 
+          </a>
+      </div>
+  </div>
+      <div class="footerlogo">
+          <a href="toppage.html" target="_blank" > 
+              <img src="footerlogo.png" alt="footerlogo" width="40%" height="40%"　border="0"> 
+          </a>
+      </div>
+
+
+      </div>
+      <p><small>Copyright @ WASEDASAI2021 Staff All Rights Reserved. </small></p>
+  </div>
+</footer>
+
+
+
+
+  </body>
+</html>
