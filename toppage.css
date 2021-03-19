@@ -1,0 +1,239 @@
+
+
+@charset "UTF-8";
+
+* {
+  font-family:serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:#eaf4fc;
+
+}
+
+
+/*header*/
+header {
+  height: 60px;
+  width: 100%;
+  padding: 0px 0px;
+  background-color:#78c1cd;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+}
+
+
+.lili:hover{
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+
+}
+
+.logo1 {
+  font-size: 25px;}
+  
+  .hedlogo{
+height:55px;
+width:55px;
+margin-left:6px;
+  }
+  
+
+.hedlogo:hover  {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+ 
+}
+ .navi{
+  margin: 0 0 0 auto;
+}
+
+.lists {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listwords {
+  color: #eaf4fc;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+.sm {
+  display: none;
+}
+
+/*----*/
+
+.toppagelogo{
+  height:480px;
+  width:480px;
+  padding-top:30px;
+margin:0 auto;
+}
+/*--ボタン--*/
+.topmenu{
+  margin-left:10%;
+}
+.libotan{
+  list-style: none;
+}
+
+.botan{
+  color: #eaf4fc;
+  height: 100px;
+  width:150px;
+  border:none;
+  margin: auto;
+  background-color: #068d9d;
+  border-radius: 10px;
+}
+
+
+.item{
+  height:100px;
+  margin-top:20px;
+}
+/*--botan--*/
+.wrapper{
+  width: 750px;/*スマホならこれくらいかなあ*/
+  margin: 0 auto;/*中央揃え*/
+  background-color: #eaf4fd;
+  padding: 10px 0 30px 0;
+ }
+ 
+ .outer-box{
+  width: 600px;
+  margin: 0 auto;/*中央揃え*/
+ }
+ 
+ h1{
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+ }
+ 
+ p{
+  color: #fff;
+  font-size: 30px;
+ }
+ 
+ .btn-box{
+  width: 600px;
+  margin: 0 auto;
+ }
+ .inner-btn-box{
+  display: flex;
+  justify-content: space-between;/*水平方向に均等に分布(端は詰める)*/
+  margin-bottom: 30px;/*それぞれのボタンの下側に空白*/
+ }
+ .btn{
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;/*角を丸く*/
+  background-color: #79c1cd;
+  text-align: center;/*「○○局」をど真ん中に*/
+  border: none;/*この二つ、*/
+     outline: none;/*ボタンの周りが黒くなるから消した、の意*/
+ }
+   /*--NEWS--*/
+  /*--footer--*/
+   
+  
+
+
+/*---------------------------------------------------------------*/
+@media (max-width: 900px) {
+
+.lili{
+  margin: 0 auto;
+}
+
+  .pc {
+    display: none;
+  }
+
+  #hamburger {
+    background-color: transparent;
+    position:relative;
+    float:right
+    cursor:pointer;
+    margin: 0 0 0 auto;
+    height: 60px;
+    width: 60px;
+  }
+
+  .icon span {
+    position: absolute;
+    left: 15px;
+    width: 30px;
+    height: 4px;
+    background-color:#eaf4fc;
+    border-radius: 8px;
+    transition: ease 0.75s;
+  }
+
+  .icon span:nth-of-type(1) {
+    top: 16px;
+  }
+  .icon span:nth-of-type(2) {
+    top: 28px;
+  }
+  .icon span:nth-of-type(3) {
+    bottom: 16px;
+  }
+
+  .close span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 28px;
+  }
+
+  .close span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .close span:nth-of-type(3) {
+      transform: rotate(-45deg);
+      top: 28px;
+  }
+
+  .sm {
+      top: 60px;
+      left: 0px;
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      background-color: #78c1cd;
+      
+  
+  }
+
+ .lists {
+    flex-direction: column;
+  }
+
+  .listwords {
+    text-align: center; 
+    border-top: solid 0.5px #eaf4fc;
+  }
+
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.item{
+  text-align: center;
+}
+ 
