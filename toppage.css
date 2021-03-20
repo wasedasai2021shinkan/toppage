@@ -1,6 +1,6 @@
 
 
-@charset "UTF-8";
+@charset :"UTF-8";
 
 * {
   font-family:serif;
@@ -113,36 +113,8 @@ button:hover{
 /*--botan--*/
 
 /*--footer--*/
-footer {
-  background-color: #78c1cd;
-  text-align: center;
-  padding: 26px 0;
-  text-decoration: none;
-}
 
-footer p {
-  color: #ffffff;
-  font-size: 20px;
-  font-family: serif;
-}
-.wrapper2 {
-  background-color: #78c1cd;
-}
-
-
-.innerbox {
-  margin-top: 5px;
-  background-color: #78c1cd;
-  text-align: center;
-  width: 450px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
-}
-
-.footerlogo{
-  margin-top: 5px;
-}
+/*--ボタン--*/
 @media (min-width: 901px) {
   .wrapper{
   width: 750px;/*スマホならこれくらいかなあ*/
