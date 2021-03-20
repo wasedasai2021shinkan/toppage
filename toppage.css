@@ -40,7 +40,7 @@ header {
   .hedlogo{
 height:55px;
 width:55px;
-margin-left:6px;
+margin-left:15px;
   }
   
 
@@ -59,11 +59,15 @@ margin-left:6px;
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-right: 15px;
 }
 
 .listwords {
-  color: #eaf4fc;
+  /*ヘッダー*/
+  color: #ffffff;
+  font-size: medium;
   text-decoration: none;
+  font-weight: 700;
   display: block;
   line-height: 60px;
   padding: 0 20px;
@@ -90,7 +94,7 @@ margin:0 auto;
 }
 
 .botan{
-  color: #eaf4fc;
+  color: #ffffff;
   height: 100px;
   width:150px;
   border:none;
@@ -98,23 +102,58 @@ margin:0 auto;
   background-color: #068d9d;
   border-radius: 10px;
 }
-
+button:hover{
+  opacity:0.85
+}
 
 .item{
   height:100px;
   margin-top:20px;
 }
 /*--botan--*/
-.wrapper{
+
+/*--footer--*/
+footer {
+  background-color: #78c1cd;
+  text-align: center;
+  padding: 26px 0;
+  text-decoration: none;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: serif;
+}
+.wrapper2 {
+  background-color: #78c1cd;
+}
+
+
+.innerbox {
+  margin-top: 5px;
+  background-color: #78c1cd;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+  margin-top: 5px;
+}
+@media (min-width: 901px) {
+  .wrapper{
   width: 750px;/*スマホならこれくらいかなあ*/
-  margin: 0 auto;/*中央揃え*/
+  margin: 0 auto;
   background-color: #eaf4fd;
   padding: 10px 0 30px 0;
  }
  
  .outer-box{
   width: 600px;
-  margin: 0 auto;/*中央揃え*/
+  margin: 0 auto;
  }
  
  h1{
@@ -146,6 +185,7 @@ margin:0 auto;
   border: none;/*この二つ、*/
      outline: none;/*ボタンの周りが黒くなるから消した、の意*/
  }
+}
    /*--NEWS--*/
   /*--footer--*/
    
@@ -178,7 +218,7 @@ margin:0 auto;
     left: 15px;
     width: 30px;
     height: 4px;
-    background-color:#eaf4fc;
+    background-color:#ffffff;
     border-radius: 8px;
     transition: ease 0.75s;
   }
@@ -224,7 +264,7 @@ margin:0 auto;
 
   .listwords {
     text-align: center; 
-    border-top: solid 0.5px #eaf4fc;
+    border-top: solid 0.5px #ffffff;
   }
 
 
@@ -233,7 +273,13 @@ margin:0 auto;
   margin: 0;
   padding: 0;
 }
+
 .item{
   text-align: center;
+}
+.btn{
+  widows: 150px;
+  height:50px;
+}
 }
  
