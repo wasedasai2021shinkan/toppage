@@ -1,6 +1,6 @@
 
 
-@charset :"UTF-8";
+@charset "UTF-8";
 
 * {
   font-family:serif;
@@ -77,7 +77,7 @@ margin-left:15px;
   display: none;
 }
 
-/*----*/
+/*-------------------------------------------------------------------*/
 
 .toppagelogo{
   height:480px;
@@ -85,11 +85,16 @@ margin-left:15px;
   padding-top:30px;
 margin:0 auto;
 }
-/*--ボタン--*/
+/*--ボタン-----------------------------------------------------------*/
+.topbotan{
+  padding-right:40px;
+}
+
 .topmenu{
   color: #17183B;
   text-align: center;
 }
+
 .libotan{
   list-style: none;
 }
@@ -125,7 +130,7 @@ button:hover{
   width: 750px;/*スマホならこれくらいかなあ*/
   margin: 0 auto;
   background-color: #eaf4fd;
-  padding: 10px 0 30px 0;
+  padding: 10px 0 10px 0;
  }
  
  .outer-box{
@@ -156,11 +161,11 @@ button:hover{
  .btn{
   width: 250px;
   height: 100px;
-  border-radius: 10px;/*角を丸く*/
+  border-radius: 10px;
   background-color: #79c1cd;
-  text-align: center;/*「○○局」をど真ん中に*/
-  border: none;/*この二つ、*/
-     outline: none;/*ボタンの周りが黒くなるから消した、の意*/
+  text-align: center;
+  border: none;
+     outline: none;
  }
 }
    /*--NEWS--*/
