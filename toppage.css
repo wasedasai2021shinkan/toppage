@@ -265,4 +265,29 @@ button:hover{
   height:50px;
 }
 }
+/*NEWS*/
+.newsall{
+  padding:20px;
+}
+.news{
+  border-top: solid 1px #17183B;
+  color:#17183B;
+}
+.newsmoji{
+  text-align: center;
+}
+.newsm{
+color:#17183B;
+font-size: 23px;
+}
+.newsmb{
+  padding-bottom: 20px;
+  border-bottom: solid 1px #17183B;
+}
+.newsevent:hover{
+  color:#78c1cd;
+}
+.newsevent{
+  color:#068d9d;
+}
  
